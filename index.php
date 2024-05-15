@@ -7,7 +7,7 @@ require "connect.php";
 require "function.php";
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">  
 
 <head>
     <meta charset="UTF-8" />
