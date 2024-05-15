@@ -1,0 +1,45 @@
+.table-dm {
+  width: 30%;
+  border-collapse: collapse;
+  margin: 50px auto 0px auto;
+}
+
+.table-dm th {
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+.table-dm td {
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card-footer {
+  width: 66%;
+}
+.btn-themdm {
+  background-color: #026db5;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  float: right;
+  margin: 10px;
+}
+
+.table-dm th a {
+  background-color: #026db5;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.table-dm th a:hover {
+  background-color: #0055ff;
+  color: #fff;
+}

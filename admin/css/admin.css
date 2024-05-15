@@ -1,0 +1,117 @@
+.card {
+  margin-top: 80px;
+}
+header {
+  /* display: flex; */
+  position: fixed; /*cuộn không mất header*/
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #026db5;
+  z-index: 1; /*fix slider che header*/
+}
+/* .nav {
+  display: inline-block; /*thu gọn header chèn search
+} */
+.nav,
+.subnav {
+  list-style-type: none; /* bỏ dấu chấm ở thẻ ul */
+}
+.nav > li {
+  display: inline-block;
+}
+.nav li {
+  position: relative;
+}
+.nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.nav li a {
+  text-decoration: none;
+  line-height: 46px; /*chiều cao của chữ*/
+  padding: 0 24px; /* canh giữa chữ */
+  display: block; /* chữ trên cùng một hàng */
+}
+.nav li:hover .subnav {
+  /*hiện nav */
+  display: block;
+}
+.nav .subnav li:hover a,
+.nav > li:hover > a {
+  /*di chuột vào sẽ thay đổi*/
+  color: #ccc;
+}
+.nav .subnav {
+  display: none;
+  min-width: 270px;
+  position: absolute;
+  background-color: #026db5;
+  box-shadow: 0 0 10px rgba(15, 14, 14, 0.3); /*bóng mờ*/
+}
+.nav .subnav a {
+  color: #fff;
+  padding: 0 12px;
+  line-height: 38px;
+}
+
+.container-from {
+  padding-top: 4rem;
+  background-color: #f6f6f6;
+  margin: 0 25%;
+  font-size: 20px;
+}
+.container-from h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group {
+  margin: 15px 10px;
+}
+.form-control {
+  display: block;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.form-control-radio {
+  margin: 0 10px;
+}
+
+.btn-success {
+  background-color: #026db5;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  float: right;
+  border: none;
+  margin-bottom: 5%;
+}
+.phantrang ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.phantrang ul li {
+  float: left;
+  margin: 10px;
+}
+
+.phantrang ul li a {
+  display: block;
+  padding: 5px 10px;
+  background-color: #026db5;
+  color: white;
+  text-decoration: none;
+}

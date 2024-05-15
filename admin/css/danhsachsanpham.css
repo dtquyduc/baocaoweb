@@ -1,0 +1,52 @@
+.card-header h2 {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  color: #1321c6;
+  text-transform: uppercase;
+}
+.table {
+  width: 98%;
+  border-collapse: collapse;
+  margin: 0px 10px;
+}
+.table th {
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+.table td {
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.btn-delete {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-delete:hover {
+  background-color: #d50808;
+  color: #fff;
+}
+
+.btn-show {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-show:hover {
+  background-color: #ccc;
+  color: #fff;
+}

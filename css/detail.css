@@ -1,0 +1,105 @@
+.wrap-top {
+  flex-wrap: nowrap;
+  align-items: center;
+  column-gap: 60px;
+}
+.image-big {
+  width: 100%;
+}
+.image-big img {
+  width: 600px;
+  margin-top: 20px;
+}
+.right {
+  width: 40%;
+}
+.image-small {
+  width: 180px;
+  height: 180px;
+  flex-wrap: nowrap;
+  margin-top: -17%;
+  flex-wrap: nowrap;
+}
+.image-small img {
+  width: 100%;
+  cursor: pointer;
+}
+.title {
+  margin-bottom: 10px;
+}
+.title h3 {
+  color: var(--text-color);
+  font-size: 20px;
+}
+.desc {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.desc span a {
+  color: var(--primary-color);
+}
+
+.price-detail {
+  color: var(--price-color);
+  font-weight: 600;
+  font-size: 25px;
+  margin: 12px 0;
+}
+.gift span:first-child {
+  color: var(--color-white);
+  background-color: var(--primary-color);
+  padding: 5px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.gift ul {
+  margin-top: 10px;
+}
+.gift ul li {
+  padding-bottom: 6px;
+}
+.gift ul li i {
+  margin-right: 5px;
+  color: var(--primary-color);
+}
+.btn-detail {
+  margin-top: 2 0px;
+}
+.btn-detail button {
+  height: 50px;
+  width: 230px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn-detail button {
+  color: var(--color-white);
+  border: none;
+  background-color: var(--primary-color);
+}
+.btn-detail button:hover {
+  background-color: var(--hover-color);
+}
+.wrap-detail h2 {
+  margin-bottom: 10px;
+}
+.wrap-detail table tr td {
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-collapse: collapse;
+}
+.wrap-detail table tr:nth-of-type(odd) {
+  background-color: var(--table-color);
+}
+table {
+  width: 100%;
+}
+
+.quantity {
+  margin-bottom: 20px;
+}
+.quantity input {
+  border: 1px solid var(--primary-color);
+  width: 50px;
+  font-size: 16px;
+}

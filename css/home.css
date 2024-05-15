@@ -1,0 +1,109 @@
+/* slider */
+.wrap-images {
+  display: block;
+  position: relative;
+  padding-top: 30%;
+  transition: all 0.25s linear;
+}
+.title{
+  font-weight: bold;
+}
+.img-item {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.slider {
+  overflow: hidden;
+}
+.dot-container {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: var(--text-secondary-color);
+  border-radius: 50%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.dot.active {
+  transition: all 0.3s linear;
+  background-color: var(--primary-color);
+}
+.title {
+  margin-top: 20px;
+}
+.title span {
+  color: var(--text-color);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.product-featured,
+.product-search,
+.product-news {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 10px;
+}
+.image {
+  text-align: center;
+}
+.image-product img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 276px;
+}
+.content {
+  margin: 0 10px;
+}
+.name {
+  min-height: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+.btn {
+  width: 150px;
+  margin: 10px auto;
+}
+.btn button {
+  width: 100%;
+  cursor: pointer;
+  padding: 8px;
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--color-white);
+  font-size: 20px;
+  border-radius: 10px;
+}
+.btn button:hover {
+  background-color: var(--hover-color);
+}
+
+.banner-hot {
+  margin: 50px 0;
+}
+.all-product {
+  cursor: pointer;
+  padding: 8px;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.all-product button {
+  background-color: var(--color-white);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 18px;
+}
+.all-product button:hover {
+  color: var(--color-white);
+}

@@ -1,0 +1,32 @@
+.table-qt {
+  width: 30%;
+  border-collapse: collapse;
+  margin: 50px auto 0px auto;
+}
+
+.table-qt th {
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+.table-qt td {
+  border: 1px solid;
+  padding: 5px;
+
+  background-color: #fff;
+}
+
+.btn-sqt {
+  background-color: #007bce;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  float: right;
+  margin: 5px;
+}
+.btn-sqt:hover {
+  background-color: #0055ff;
+  color: #fff;
+}

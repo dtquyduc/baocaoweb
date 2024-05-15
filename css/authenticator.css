@@ -1,0 +1,73 @@
+.wrap {
+  padding-top: 27px;
+}
+.heading {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 70px;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+.headed {
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.sub_heading {
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: 650;
+  margin-top: 45px;
+}
+.logo {
+  padding-left: 20px;
+}
+.auth_form {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.form {
+  text-align: center;
+  width: 450px;
+  display: block;
+}
+.outside {
+  font-weight: bold;
+  text-align: left;
+  padding-top: 10px;
+}
+.star {
+  color: rgb(255, 0, 0);
+}
+.form input {
+  width: 450px;
+  height: 35px;
+  border-radius: 3px;
+  border: 0.05px solid;
+  border-color: rgb(214, 218, 218);
+  padding-left: 18px;
+  margin-top: 10px;
+  border-style: ridge;
+}
+.form button {
+  width: 450px;
+  height: 38px;
+  background: var(--secondary-color);
+  color: rgba(2, 11, 129, 0.911);
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: rgb(237, 248, 248);
+  border-radius: 100px;
+}
+.form button:hover {
+  color: rgb(27, 25, 25);
+  cursor: pointer;
+}
